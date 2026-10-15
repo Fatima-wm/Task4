@@ -1,0 +1,61 @@
+body {
+background-color: #d9eeee;
+font-family: Arial;
+}
+
+#container {
+background-color: white;
+width: 80%;
+margin: auto;
+padding: 10px;
+}
+
+#header {
+background-color: lightblue;
+text-align: right;
+padding: 10px;
+color: teal;
+}
+
+#friends {
+float: left;
+background-color: turquoise;
+border: 3px solid teal;
+padding: 10px;
+margin-top: 10px;
+}
+
+#friends a {
+color: coral;
+}
+
+#entries {
+margin-left: 25%;
+}
+
+.entry {
+background-color: #e8fafa;
+border: 3px solid lightblue;
+padding: 10px;
+margin: 10px;
+overflow: auto;
+}
+
+.entry h2 {
+color: teal;
+font-weight: normal;
+}
+
+.entry span {
+text-decoration: underline;
+}
+
+.entry img {
+float: right;
+width: 30%;
+margin: 5px;
+}
+
+.entry p {
+color: rosybrown;
+}
